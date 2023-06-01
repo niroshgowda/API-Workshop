@@ -1,0 +1,110 @@
+ body{
+    background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+  
+ }
+*{
+    margin: 0;
+    padding: 0;
+}
+.hhhh
+{
+    float: left;
+    margin-left: 170px;
+    margin-top: 15px;
+}
+
+.navigation
+{
+    margin-left: 350px;
+    width: 400px;
+    height: 70px;
+}
+.menu
+{
+    width: 900px;
+    float: left;
+    height: 70px;
+    position: fixed;
+    margin-left: 750px;
+   
+}
+.menu ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.menu ul li
+{
+     list-style: none;
+     margin-left: 62px;
+     margin-top: 27px;
+     font-size: 14px;
+}
+.head{
+    font-size: 380%;
+    color: rgb(148, 208, 248);
+}
+.menu ul li 
+{
+    text-decoration: none;
+    color: rgb(148, 208, 248);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.45 ease-in-out;
+    font-size:larger;
+    position: relative;
+    left:35%;
+    
+}
+.menu ul li:hover
+{
+   color: coral;
+}
+
+#card{
+    
+    /* background-color: #ff610b;
+    opacity: 0.6;
+    border-radius:10px ;
+    position: fixed;
+    top:45%; */
+
+    background: rgba(155, 91, 91, 0.871);
+border-radius: 16px;
+box-shadow: 0 5px 30px rgba(19, 32, 201, 0.978);
+backdrop-filter: blur(3.4px);
+-webkit-backdrop-filter: blur(3.4px);
+border: 1px solid rgba(17, 17, 17, 0.3);
+opacity: 0.4;
+position: fixed;
+padding-top:7%;
+padding-bottom: 7%;
+padding-left: 22%;
+padding-right: 21%;
+top:35%;
+left: 10%;
+    
+}
+#text
+{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:mintcream;
+    bottom:35%;
+    left:10%;
+    font-size: xx-large;
+    font-family: cursive;
+}
+#logincls
+{
+    position: absolute;
+    left:45%;
+}
+@media screen and (min-width: 800px) {
+  
+}
